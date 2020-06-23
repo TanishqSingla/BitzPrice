@@ -17,7 +17,7 @@ Index.getInitialProps = async function () {
   const data = await res.json();
 
   return {
-    bpi: data,
+    bpi: data.bpi,
   };
 };
 
