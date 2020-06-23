@@ -1,7 +1,8 @@
-import Link from "next/link";
+import Navbar from "../components/Navbar";
 
 const Index = () => (
   <div>
+    <Navbar />
     <h1>BitzPrice</h1>
   </div>
 );
