@@ -1,9 +1,10 @@
-import Navbar from "../components/Navbar";
+import Layout from "../components/Layout";
 
 const Index = () => (
   <div>
-    <Navbar />
-    <h1>BitzPrice</h1>
+    <Layout>
+      <h1>BitzPrice</h1>
+    </Layout>
   </div>
 );
 

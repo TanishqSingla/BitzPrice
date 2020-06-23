@@ -1,9 +1,10 @@
-import Navbar from "../components/Navbar";
+import Layout from "../components/Layout";
 
 const About = () => (
   <div>
-    <Navbar />
-    <h1>About BitzPrice</h1>
+    <Layout>
+      <h1>About BitzPrice</h1>
+    </Layout>
   </div>
 );
 
